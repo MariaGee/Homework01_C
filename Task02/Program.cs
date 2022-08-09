@@ -10,7 +10,11 @@ if (max < numberB)
     max = numberB;
     Console.Write("Число " + max + " больше числа " + numberA);
 }
-else
+else if (max > numberB)
 {
     Console.Write("Число " + max + " больше числа " + numberB);
+}
+else 
+{
+    Console.Write("Числа " + max + " и " + numberB + " равны");
 }
